@@ -5,7 +5,7 @@
 
 void kmain(void)
 {
-	char *str = "my first kernel";
+	char *str = "Maitreya's Kernel";
 	//video memory begins at address 0xb8000
 	char *vidptr = (char*)0xb8000;
 	unsigned int i = 0;
